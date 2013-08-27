@@ -10,6 +10,7 @@ class StaticPagesController < ApplicationController
   
   def contact
   end
+  
   def physicsassignments
   end
 end
