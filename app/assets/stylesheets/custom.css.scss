@@ -3,6 +3,18 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
+span {
+	color:red;
+}
+
+.physicsassignments_links {
+	text-align: left;
+	list-style-type: none;
+}
+
+.physicsassignments {
+	text-align:center;
+}
 
 @mixin box_sizing {
   -moz-box-sizing: border-box;
