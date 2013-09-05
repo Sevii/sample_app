@@ -3,7 +3,10 @@
 /* mixins, variables, etc. */
 
 $grayMediumLight: #eaeaea;
-span {
+
+
+
+#redemphasis {
 	color:red;
 }
 
@@ -11,6 +14,16 @@ span {
 	text-align: left;
 	list-style-type: none;
 }
+
+.sidebar {
+	background-color:#ccd4d9;
+	height:100%;
+	width:15%;
+	float:left;
+	z-index:1;
+	margin-left:-11em;
+}
+
 
 .physicsassignments {
 	text-align:center;
@@ -74,6 +87,8 @@ p {
 }
 
 
+
+
 /* header */
 
 #logo {
@@ -86,6 +101,7 @@ p {
   padding-top: 9px;
   font-weight: bold;
   line-height: 1;
+  
   &:hover {
     color: white;
     text-decoration: none;
@@ -128,6 +144,7 @@ footer {
     @include box_sizing;
 	
 }
+
 
 /* sidebar */
 

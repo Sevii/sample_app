@@ -13,4 +13,7 @@ class StaticPagesController < ApplicationController
   
   def physicsassignments
   end
+  
+  def jquerytest
+  end
 end
